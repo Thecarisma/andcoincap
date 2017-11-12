@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="60dp"
+        android:id="@+id/card_main_layout"
+        android:background="@color/colorWhite"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="end"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:src="@drawable/delete" />
+
+        <ImageView
+            android:id="@+id/crypto_icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/btc"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/card_rate"
+            android:layout_width="wrap_content"
+            android:text="$ 6366.1"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorGrey"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal"
+                android:background="@color/colorWhite"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/denom_icon"
+                    android:layout_width="50dp"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/us_flag"
+                    android:scaleType="fitXY"
+                    android:layout_height="50dp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="30sp"
+                    android:foregroundGravity="center"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/card_denom"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"/>
+
+    </LinearLayout>
+
+</LinearLayout>

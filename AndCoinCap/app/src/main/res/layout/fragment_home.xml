@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gig.com.andcoincap.Home">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="BTC,ETH EXCHANGE RATES"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="click the crypto icon to change between BTC and ETH"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="click the curency spinner to change currency"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="click anywhere on the card to convert"/>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_below="@id/title_text"
+        android:id="@+id/content_btc_price"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp">
+
+        <WebView
+            android:id="@+id/btc_chart_webview"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="4dp" />
+
+        <WebView
+            android:id="@+id/eth_chart_webview"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="4dp" />
+
+    </LinearLayout>-->
+
+    <ListView
+        android:id="@+id/card_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
