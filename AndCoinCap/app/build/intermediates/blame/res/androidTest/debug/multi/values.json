@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Thecarisma\\Documents\\SCHOOL PROJECTS\\RIDWAN\\AndCoinCap\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Thecarisma\\.android\\build-cache\\3f62846e6643a51330cfeed7e0fe5fed83fb21ab\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]
