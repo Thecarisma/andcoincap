@@ -15,7 +15,7 @@
   {
      "id": "3", 
      "name" : "bitcoin_cash",
-     "url": "https://www.bitcoincash.org/img/bitcoincash-white.png"
+     "url": "http://www.bitcoincash.org/img/bitcoincash-white.png"
   }
 
   {
